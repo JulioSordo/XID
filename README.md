@@ -62,5 +62,6 @@ XID leverages cutting-edge technology for security and scalability:
 - An XRP Ledger wallet (for testing financial features)
 
 ### live Site 
+https://juliosordo.github.io/XID/
 
    
