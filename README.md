@@ -64,7 +64,6 @@ XID leverages cutting-edge technology for security and scalability:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tu-usuario/XID.git
+   git clone https://github.com/juliosordo/XID.git
    cd XID
-   live Site
-   https://juliosordo.github.io/XID/
+   
