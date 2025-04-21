@@ -61,9 +61,6 @@ XID leverages cutting-edge technology for security and scalability:
 - Git
 - An XRP Ledger wallet (for testing financial features)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/juliosordo/XID.git
-   cd XID
+### live Site 
+
    
