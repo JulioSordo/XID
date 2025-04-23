@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XID - Modo Vida</title>
+    <link rel="stylesheet" href="modo-vida.css">
+</head>
+<body>
+    <div class="modo-vida-container">
+        <h1>Modo Vida - Emergencia</h1>
+        <div class="escudo-luminoso">
+            <div class="shield-icon">🛡️</div>
+            <p id="status">Modo Vida: Inactivo</p>
+        </div>
+        <button id="activate-btn" onclick="toggleModoVida()">Activar Modo Vida</button>
+        <div id="qr-section" class="qr-section hidden">
+            <h3>Código QR Temporal</h3>
+            <div class="qr-placeholder">[Código QR Aquí]</div>
+            <p>Expira en: <span id="timer">10:00</span></p>
+        </div>
+        <div class="critical-data hidden" id="critical-data">
+            <h3>Datos Críticos</h3>
+            <p><strong>Contactos:</strong> Juan Pérez (+1234567890)</p>
+            <p><strong>Condiciones:</strong> Diabetes Tipo 2</p>
+            <p><strong>Alergias:</strong> Penicilina</p>
+            <p><strong>Grupo Sanguíneo:</strong> O+</p>
+        </div>
+    </div>
+    <script src="modo-vida.js"></script>
+</body>
+</html>
