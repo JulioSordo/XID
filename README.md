@@ -1,7 +1,6 @@
 # XID - eXistence ID
 
 ![XID Logo Placeholder](https://via.placeholder.com/150)  
-*(Note: Replace with your project logo or remove this line if no logo yet)*
 
 Welcome to **XID (eXistence ID)**, a sovereign, decentralized digital identity system built on the **XRP Ledger**. XID is designed to empower individuals with a universal Life Charter that encompasses health, finances, education, licenses, voting, global citizenship, and emergency services—without reliance on governments, banks, or intermediaries.
 
