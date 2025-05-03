@@ -60,6 +60,11 @@ XID leverages cutting-edge technology for security and scalability:
 - Git
 - An XRP Ledger wallet (for testing financial features)
 
+## XLS-XID Proposal
+
+A decentralized digital identity standard on the XRP Ledger.  
+[Read the full proposal here](./XLS-XID.md)
+
 ### live Site 
 https://juliosordo.github.io/XID/
 
