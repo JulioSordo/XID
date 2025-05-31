@@ -1,140 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XID - eXistence ID</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XID - eXistence ID</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="images/xid-logo-300x150.png" alt="XID Logo" class="logo">
-            <h1>XID - eXistence ID</h1>
-            <p>Your Sovereign Digital Identity on the XRP Ledger</p>
-            <a href="https://github.com/JulioSordo/XID" class="btn">View on GitHub</a>
-        </div>
-    </header>
+  <header>
+    <h1>XID: Tu vida, tu llave, tu red</h1>
+    <img src="xid_logo.png" alt="Logo XID" width="150">
+  </header>
 
-    <section id="manifesto">
-        <h2>Manifiesto</h2>
-        <p>In a world divided by borders and fragmented systems, XID emerges as a new way to exist: a sovereign, universal digital identity built on the XRP Ledger. XID is your story, your health, your education, your economy, your voice, and your freedom—without intermediaries, exclusions, or the possibility of falsification.</p>
-        <p>From a child born in a remote village to an engineer building cities on the Moon, everyone deserves an identity that represents, protects, and connects them to a fairer world. XID is your Life Charter—because in the future, sovereignty is programmed, not granted.</p>
+  <main>
+    <section id="introduccion">
+      <h2>¿Qué es XID?</h2>
+      <p>
+        XID (eXistence ID) es una identidad digital global descentralizada basada en el XRP Ledger,
+        diseñada para que cada ser humano tenga control sobre su información, privacidad y conexión
+        con la Web3. Es más que un documento: es tu existencia digital.
+      </p>
     </section>
 
-    <section id="features">
-        <h2>Modules of the XID Life Charter</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>Health</h3>
-                <p>Medical history, vaccines, insurance, and instant access with privacy control.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Finances</h3>
-                <p>Multi-currency wallet on XRPL, payments, credit, and global transactions.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Education</h3>
-                <p>Verifiable NFTs for diplomas and certificates from institutions.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Licenses</h3>
-                <p>Digital permits (driving, operating, etc.) with secure authentication.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Voting</h3>
-                <p>Decentralized, fraud-free democratic participation.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Global Citizenship</h3>
-                <p>Rights and existence recognition independent of any state.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Emergency Mode</h3>
-                <p>'Live Mode' for secure sharing of critical data in emergencies.</p>
-            </div>
-        </div>
+    <section id="manifiesto">
+      <h2>📘 Manifiesto Visual Extendido</h2>
+      <p>
+        Descubre la visión completa de XID en este documento visual, ahora con el Apéndice Crítico incluido.<br>
+        <a href="https://github.com/JulioSordo/XID/blob/main/XID_Manifiesto_Visual_Extendido.pdf" target="_blank">
+          👉 Leer el Manifiesto Visual Extendido (PDF)
+        </a>
+      </p>
     </section>
 
-    <!-- Sección: Live Mode -->
-    <section id="live-mode">
-        <h2>Live Mode - Emergency Mode</h2>
-        <p>Activate Live Mode in emergencies to securely share critical data.</p>
-        <noscript>
-            <p style="color: red; font-weight: bold;">JavaScript is disabled in your browser. Please enable JavaScript to use Live Mode.</p>
-        </noscript>
-        <div class="live-mode-container">
-            <div class="escudo-luminoso">
-                <div class="shield-icon">🛡️</div>
-                <p id="status">Live Mode: Inactive</p>
-            </div>
-            <button id="activate-btn" onclick="toggleLiveMode()">Activate Live Mode</button>
-            <div id="qr-section" class="qr-section hidden">
-                <h3>Temporary QR Code</h3>
-                <div class="qr-placeholder">[QR Code Placeholder]</div>
-                <p>Expires in: <span id="timer">10:00</span></p>
-            </div>
-            <div class="critical-data hidden" id="critical-data">
-                <h3>Critical Data</h3>
-                <p><strong>Emergency Contact:</strong> Juan Pérez (+1234567890)</p>
-                <p><strong>Medical Conditions:</strong> Diabetes Type 2</p>
-                <p><strong>Allergies:</strong> Penicillin</p>
-                <p><strong>Blood Type:</strong> O+</p>
-            </div>
-        </div>
+    <section id="modo-vida">
+      <h2>🛡️ Modo Vida</h2>
+      <p>
+        En situaciones de emergencia, XID activa un escudo luminoso que comparte únicamente
+        los datos esenciales con redes autorizadas, preservando tu privacidad y salvando vidas.
+      </p>
     </section>
 
-    <section id="architecture">
-        <h2>Technical Architecture</h2>
-        <ul>
-            <li>Built on XRP Ledger: Fast validation, low cost, high scalability.</li>
-            <li>Smart Contracts for modules: Health, finances, education, licenses, and voting.</li>
-            <li>Cryptographic Security: Biometric signatures and end-to-end encryption.</li>
-            <li>Interoperability: REST APIs and mobile SDKs for external integration.</li>
-            <li>Resilience: Decentralized network with globally replicated nodes.</li>
-        </ul>
+    <section id="vision">
+      <h2>🔮 Visión Futura</h2>
+      <p>
+        XID aspira a construir una red humana global sin fronteras, donde la identidad esté protegida,
+        la tecnología esté al servicio de la vida y cada persona tenga poder sobre su existencia digital,
+        ahora, dentro de 20 años y más allá de los próximos 50.
+      </p>
     </section>
+  </main>
 
-    <section id="roadmap">
-        <h2>Roadmap</h2>
-        <ul>
-            <li><strong>Q2 2025:</strong> Manifesto release and GitHub repository launch.</li>
-            <li><strong>Q3 2025:</strong> Alpha version of the XID wallet.</li>
-            <li><strong>Q4 2025:</strong> Pilot testing of 'Live Mode' with healthcare partners.</li>
-            <li><strong>Q1 2026:</strong> Public beta with health and finance modules.</li>
-            <li><strong>Q2 2026:</strong> Integration of licenses and voting module.</li>
-            <li><strong>Q3 2026:</strong> Partnerships with international organizations for global citizenship.</li>
-        </ul>
-    </section>
-
-    <section id="contribute">
-        <h2>How to Contribute</h2>
-        <p>This is an open-source project—your support is key!</p>
-        <ul>
-            <li>Review the repository: <a href="https://github.com/JulioSordo/XID">https://github.com/JulioSordo/XID</a></li>
-            <li>Report issues and suggest improvements.</li>
-            <li>Join forum discussions.</li>
-            <li>Submit Pull Requests with new features.</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact & Credits</h2>
-        <p><strong>Author:</strong> Julio A Sordo</p>
-        <p><strong>Visual & Conceptual Manifesto:</strong> Julio A Sordo & XRPL Community</p>
-        <p><strong>Contact:</strong></p>
-        <ul>
-            <li>Email: <a href="mailto:julio@example.com">julio@example.com</a></li>
-            <li>GitHub: <a href="https://github.com/JulioSordo/XID">https://github.com/JulioSordo/XID</a></li>
-            <li>Twitter: <a href="https://twitter.com/XID_Project">@XID_Project</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>© 2025 XID Project. All rights reserved.</p>
-    </footer>
-
-    <script src="scripts.js"></script>
+  <footer>
+    <p>© 2025 XID Project – Desarrollado por Julio A Sordo</p>
+  </footer>
 </body>
 </html>
